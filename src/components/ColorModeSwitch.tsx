@@ -8,7 +8,7 @@ const ColorModeSwitch = () => {
       <Switch
         isChecked={colorMode === "dark"}
         onChange={toggleColorMode}
-        colorScheme="green"
+        colorScheme="blue"
       />
       <Text whiteSpace="nowrap">Dark Mode</Text>
     </HStack>

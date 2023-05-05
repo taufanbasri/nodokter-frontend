@@ -1,4 +1,5 @@
-import { Grid, GridItem, SimpleGrid } from "@chakra-ui/react";
+import { Grid, GridItem } from "@chakra-ui/react";
+import ProductGrid from "../components/ProductGrid";
 
 const Homepage = () => {
   return (
@@ -11,13 +12,7 @@ const Homepage = () => {
       }}
     >
       <GridItem area="main">
-        <SimpleGrid
-          padding="10px"
-          columns={{ sm: 1, md: 2, lg: 3, xl: 4 }}
-          spacing={6}
-        >
-          Main
-        </SimpleGrid>
+        <ProductGrid />
       </GridItem>
     </Grid>
   );

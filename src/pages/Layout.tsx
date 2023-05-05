@@ -4,7 +4,7 @@ import { Box, Container } from "@chakra-ui/react";
 
 const Layout = () => {
   return (
-    <Container centerContent maxW="container.md">
+    <Container centerContent maxW="container.xl">
       <Navbar />
 
       <Box padding={5}>
